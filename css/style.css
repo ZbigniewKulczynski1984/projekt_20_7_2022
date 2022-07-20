@@ -1,5 +1,5 @@
 body {
-  background-color: #fff;
+  background-color: rgb(231, 77, 77);
 }
 
 nav ul {
@@ -23,4 +23,5 @@ nav a {
 .test div p {
   font-size: 36px;
   height: 100px;
+  color: blue;
 }/*# sourceMappingURL=style.css.map */
