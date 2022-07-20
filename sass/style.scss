@@ -2,3 +2,19 @@ body {
     background-color: #fff;
 }
 
+nav {
+    ul{
+        list-style: none;
+    }
+
+    li{
+        background-color: red;
+        font-size: 30px;
+    }
+    a {
+    text-decoration: none;
+    }
+}
+
+
+
