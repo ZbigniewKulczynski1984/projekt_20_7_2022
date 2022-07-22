@@ -24,6 +24,14 @@ nav a {
   text-decoration: none;
 }
 
+div p {
+  color: blue;
+}
+
+p::first-letter {
+  color: red;
+}
+
 .square {
   margin: 30px;
   height: 400px;
