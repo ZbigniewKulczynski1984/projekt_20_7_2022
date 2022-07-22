@@ -1,3 +1,8 @@
+@mixin addons {
+    border-radius: 25px;
+    background-color: gold;
+}
+
 body {
     background-color: #fff;
 }
@@ -37,10 +42,11 @@ nav {
     @include addons;
 }
 
-@mixin addons {
-    border-radius: 25px;
-    background-color: gold;
+[class="test"] {
+    color: gold;
 }
+
+
 
 
 
