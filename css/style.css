@@ -12,9 +12,11 @@ body {
 }
 
 nav ul {
+  margin-right: 60px;
   list-style: none;
 }
 nav li {
+  display: inline-block;
   background-color: red;
   font-size: 30px;
 }
@@ -27,9 +29,16 @@ nav a {
   height: 400px;
   width: 400px;
   border: 5px solid black;
+  border-radius: 25px;
   color: gold;
-  -webkit-animation: color 5s;
-          animation: color 5s;
+  -webkit-animation: color 5s infinite;
+          animation: color 5s infinite;
+  animation-direction: reverse;
+}
+
+.square:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
 }
 
 @-webkit-keyframes color {

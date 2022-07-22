@@ -18,10 +18,13 @@ body {
 
 nav {
     ul{
+        margin-right: 60px;
         list-style: none;
     }
 
     li{
+        display: inline-block;
+        
         background-color: red;
         font-size: 30px;
     }
@@ -48,11 +51,16 @@ nav {
     height: 400px;
     width: 400px;
     border: 5px solid black;
+    border-radius: 25px;
     // @include addons;
     color: gold;
-    animation: color 5s;
+    animation: color 5s infinite;
+    animation-direction: reverse ;
 }
 
+.square:hover {
+    animation-play-state: paused;
+}
 // [class="test"] {
 //     color: gold;
 // }
