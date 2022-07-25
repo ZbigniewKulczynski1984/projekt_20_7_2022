@@ -1,6 +1,9 @@
 # projekt_20_7_2022
+
 ##Animation
-Wykorzystano:
--HTML 
--CSS
--SASS
+
+## Buit With
+- HTML
+- CSS
+## Autor
+Zbigniew Kulczyński
